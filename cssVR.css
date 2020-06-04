@@ -1,0 +1,606 @@
+
+/* 
+amarillo oscuro: F9C364
+amarillo claro: FED57E
+morado: 8D8199
+gris oscuro: BBBBB6
+gris claro: ECEDE7
+blanco: FFFFFF
+*/
+
+body {
+    font-family: 'Mada', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    color: #2A2C48;
+    margin: 0;
+}
+
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'M PLUS 1p', sans-serif;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 100px;
+    color: #2A2C48;
+    text-align: center;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    
+
+}
+
+.introduccion_teoria h2 {
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 20px;
+}
+
+.autor_seccion {
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.introduccion_teoria {
+    padding-bottom: 20px;
+}
+
+.wrapper_teoria {
+    max-width:900px;
+    flex: 1;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+
+}
+
+.wrapper_teoria_tools {
+    max-width:1000px;
+    flex: 1;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+
+}
+
+.wrapper {
+    max-width:800px;
+    flex: 1;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    height: inherit;
+    flex-wrap: inherit; 
+}
+
+.hero_historia {
+    background: #2A2C48;
+    text-align: center;
+    padding: 40px 70px 70px;
+}
+
+.tool_empresa {
+    background: rgb(252, 216, 139) ;
+    font-size: 18px;
+    padding: 30px;
+
+}
+
+.tool_empresa h2 {
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.fini_teoria {
+    padding: 50px 0;
+}
+
+.hero_historia h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 50px 50px 20px 50px ;
+}
+
+.hero_historia h3 {
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 20px;
+    color: #FED57E;
+    text-align: center;
+    padding: 0 100px;
+}
+
+
+.introduccion_teoria {
+
+    display: block;
+    justify-content: center;
+
+
+}
+
+
+.introduccion_historia {
+    padding: 50px;
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.introduccion_estadistica {
+
+    padding-bottom: 100px;
+}
+
+.wrapper_form {
+    max-width:400px;
+    flex: 1;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    height: inherit;
+    flex-wrap: inherit; 
+}
+
+.form_section {
+    text-align: center;
+
+    margin-top: -300px;
+
+}
+
+.form_section h3 {
+    font-size: 20px;
+}
+
+.datos_historia {
+    background: #FED57E;
+    padding: 50px 0;
+    border-radius: 200px;
+    
+}
+
+.space_text {
+    padding: 5px 20px;
+    border-radius: 15px;
+    margin: 10px;
+    border-style: none;
+    
+}
+
+.mister {
+    border-radius: 15px;
+    padding: 5px 10px;
+    border-style: none;
+}
+
+.boton_datos_user {
+    margin-left: 10px;
+    background: #8D8199;
+    color: #FED57E;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    text-transform: uppercase;
+    border-style: none;
+    margin: 10px;
+}
+
+.texto_block {
+    text-align: center;
+    padding: 50px 20px;
+    font-size: 25px;
+    max-width: 800px;
+    flex: 1;
+    margin: 0 auto;
+
+}
+
+.texto_block h2 {
+
+    font-family: 'Press Start 2P', cursive;
+    font-size: 40px;
+}
+
+.escena_block {
+    text-align: center;
+}
+
+.escena_flex {
+    display: flex;
+    max-width: 1100px;
+    flex: 1;
+    margin: 0 auto;
+    justify-content: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
+
+.texto_flex {
+    text-align: center;
+    font-size: 25px;
+    padding: 50px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+
+}
+
+.wrapper_flex img {
+    
+    border-radius: 150px;
+}
+
+.wrapper_flex {
+    padding: 0 30px;
+    width: 50%;
+}
+
+/* .texto_flex_manos {
+    font-size: 22px;
+}
+
+
+.escena_flex_doble {
+    display: flex;
+    max-width: 1300px;
+    flex: 1;
+    margin: 0 auto;
+    justify-content: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
+.wrapper_flex_texto {
+    width: 70%;
+    padding: 30px;
+}
+
+.wrapper_flex_image img {
+    border-radius: 50px;
+} */
+
+.wrapper_resultados {
+    max-width:800px;
+    flex: 1;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.texto_flex_VR {
+    font-size: 25px;
+    font-family: 'Quantico', sans-serif;
+    text-align: center;
+    padding: 0 50px 50px 50px;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+
+.texto_flex_VR h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 60px;
+}
+
+.texto_flex h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 40px;
+
+}
+
+.recuerda h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 40px;
+    
+}
+
+.recuerda  {
+    padding: 30px;
+    font-size: 25px;
+    
+}
+
+.skills_sup {
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.skill {
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+    width: 200px;
+}
+
+.skill h3 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 60px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    
+}
+
+.skill p {
+    
+    font-size: 16px;
+}
+
+
+
+
+
+@media screen and (max-width: 767px) {
+    body {
+        font-family: 'Mada', sans-serif;
+        font-size: 16px;
+        margin: 0;
+        width: auto;
+    }
+
+    h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 4em;
+    }
+
+    h2 {
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 1.2rem;
+    }
+
+    h3 {
+        font-family: 'M PLUS 1p', sans-serif;
+        font-size: 1rem;
+        }
+    
+    .introduccion_teoria {
+        padding: 0px 25px 25px 25px;
+        width: auto;
+        display: block;
+        justify-content: center;
+    }
+
+    .tool_empresa h2 {
+        
+        font-size: 1.2rem;
+        
+    }
+
+    .fini_teoria {
+        padding: 0px 25px 25px 25px;
+        width: auto;
+        display: block;
+        justify-content: center;
+    }
+
+    .hero_historia   {
+        padding: 30px 20px 20px 20px;
+        width: auto;
+        display: block;
+        justify-content: center;
+        }
+    
+        .hero_historia h2   {
+            margin: 0;
+            padding: 0;
+            width: auto;
+            display: block;
+            justify-content: center;
+        }
+    
+        .hero_historia h3   {
+            padding: 0;
+            width: auto;
+            display: block;
+            justify-content: center;
+            font-size: 1rem;
+        }
+
+        .escena_flex {
+            display: flex;
+            padding-left: 30px;
+            padding-right: 30px;
+            text-align: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .wrapper_flex {
+            padding: 0;
+            width: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            font-size: 1rem;
+            flex-direction: row-reverse;
+        }
+        
+        .wrapper_resultados {
+            padding: 0;
+            width: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            font-size: 1rem;
+            flex-direction: row-reverse;
+        }
+
+        .recuerda h2 {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 25px;
+            
+        }
+
+        #texto2 {
+            order: 2;
+            
+        }
+
+        #escena2 {
+            order: 1;
+            
+        }
+
+
+    
+
+
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .form_section {
+        text-align: center;
+    
+        margin-top: -200px;
+    
+    } 
+ 
+}
+
+@media screen and (max-width: 320px) {
+    
+    body {
+        font-family: 'Mada', sans-serif;
+        font-size: 16px;
+        margin: 0;
+        width: auto;
+    }
+    
+    h1 {
+        font-family: 'Press Start 2P', cursive;
+        font-size: 3em;
+        padding: 5px 0px;
+        margin-block-start: 0.2em;
+        }
+
+    h2 {    
+        font-size: 1.2em;   
+        }
+    
+    
+    .introduccion_teoria h2 {
+        font-size: 1.2rem;
+    }
+    
+    .tool_empresa {
+        
+        font-size: 1em;
+        
+    }
+
+    .tool_empresa h2 {
+        
+        font-size: 1.2rem;
+        text-align: left;
+        
+            
+        }    
+    
+    .skill {
+            padding: 10px;
+            text-align: center;
+            justify-content: center;
+            width: 200px;
+        }
+
+    .skill h3 {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 60px;
+            margin-block-end: 0;
+            margin-block-start: 0;
+        }
+
+    .fini_teoria h2 {
+        font-size: 1.2rem;
+        text-align: left;
+    }
+    
+    .hero_historia   {
+    padding: 30px 20px 20px 20px;
+    width: auto;
+    display: block;
+    justify-content: center;
+    }
+
+    .hero_historia h2   {
+        margin: 0;
+        padding: 0;
+        width: auto;
+        display: block;
+        justify-content: center;
+    }
+
+    .hero_historia h3   {
+        padding: 0;
+        width: auto;
+        display: block;
+        justify-content: center;
+        font-size: 1rem;
+    }
+
+    .introduccion_historia {
+        padding: 30px 20px 20px 20px;
+        width: auto;
+        display: block;
+        justify-content: center;
+        text-align: left;
+        font-size: 1rem;
+        }
+
+    .form_section {
+        padding: 30px 20px 20px 20px;
+        width: auto;
+        display: block;
+        justify-content: center;
+        font-size: 1rem;
+        margin-top: -170px;
+        }
+
+        .wrapper_flex p {
+            padding: 20px 0;
+            
+            
+        }
+
+        .texto_block {
+            padding: 20px;
+            
+            
+        }
+
+        .wrapper_flex img {
+    
+            border-radius: 100px;
+        }
+       
+
+}
