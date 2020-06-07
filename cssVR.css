@@ -8,6 +8,104 @@ gris claro: ECEDE7
 blanco: FFFFFF
 */
 
+@font-face {
+    font-family: 'icomoon';
+    src:  url('ICONOS/fonts/icomoon.eot?ejvlgt');
+    src:  url('ICONOS/fonts/icomoon.eot?ejvlgt#iefix') format('embedded-opentype'),
+      url('ICONOS/fonts/icomoon.ttf?ejvlgt') format('truetype'),
+      url('ICONOS/fonts/icomoon.woff?ejvlgt') format('woff'),
+      url('ICONOS/fonts/icomoon.svg?ejvlgt#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-menu:before {
+    content: "\e900";
+  }
+
+  
+  .header {
+    background-color: #ECEDE7;
+    display: flex;
+    color: rgb(128, 128, 128);
+    justify-content: space-between;
+    height: 90px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
+.header ol{
+    display: flex;
+    height: inherit;
+}
+
+.header ol li {
+    height: inherit;
+}
+
+ol,
+ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.figure {
+    margin: 0;
+}
+
+.menu {
+    height: inherit;
+}
+
+
+.link_contacto {
+    border-radius: 10px 10px 0 0;
+    background: white;
+}
+
+.header a {
+    color: BBBBB6;
+    text-decoration: none;
+    font-family: 'Mada', sans-serif;
+    display: flex;
+    height: inherit;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.burger-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(254, 213, 126, .7);
+    display: none;
+    line-height: 50px;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+    left: 5px;
+    top: 5px;
+    color: #2A2C48;
+}
+
 body {
     font-family: 'Mada', sans-serif;
     font-size: 18px;
@@ -167,7 +265,13 @@ h1 {
 
 .form_section h3 {
     font-size: 20px;
+    padding-bottom: 20px;
 }
+
+.form_section img {
+    text-align: center;
+}
+
 
 .datos_historia {
     background: #FED57E;
@@ -290,7 +394,7 @@ h1 {
     font-family: 'Quantico', sans-serif;
     text-align: center;
     padding: 0 50px 50px 50px;
-    width: 50%;
+    
     margin: 0 auto;
 
 }
@@ -353,11 +457,79 @@ h1 {
     font-size: 16px;
 }
 
+.container {
+    display: none;
+}
+
+.mostrar-container {
+    display: block;
+}
 
 
 
 
 @media screen and (max-width: 767px) {
+    
+    .burger-button {
+        display: block;
+        z-index: 2;
+        
+    }
+
+    .header {
+        display: block;
+        height: auto;
+        position: static;
+        padding-top: 1px;
+        padding-right: 0;
+
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .header ol {
+        display: initial;
+        height: auto;
+    }
+
+    .header ol li {
+        height: 30px;
+        padding: 20px 0;
+    }
+
+    .header a {
+        justify-content: center;
+        color: #FED57E;
+        font-size: 1.2rem;
+        text-align: center;
+    
+    }
+
+    .header .logo {
+        text-align: center;
+    }
+
+    .menu {
+        position: fixed;
+        background: rgba(42, 44, 72, 0.788);
+        z-index: 1;
+        top: 0;
+        left: -40vw;
+        bottom: 0;
+        width: 40vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: .3s;
+    }
+
+    .menu.is-active {
+        left: 0;
+    }
+    
     body {
         font-family: 'Mada', sans-serif;
         font-size: 16px;
@@ -425,8 +597,8 @@ h1 {
 
         .escena_flex {
             display: flex;
-            padding-left: 30px;
-            padding-right: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
             text-align: center;
             justify-content: center;
             flex-wrap: wrap;
@@ -435,11 +607,8 @@ h1 {
         .wrapper_flex {
             padding: 0;
             width: auto;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
             font-size: 1rem;
-            flex-direction: row-reverse;
+            
         }
         
         .wrapper_resultados {
@@ -459,12 +628,12 @@ h1 {
         }
 
         #texto2 {
-            order: 2;
+            order: 1;
             
         }
 
         #escena2 {
-            order: 1;
+            order: 2;
             
         }
 
@@ -488,6 +657,11 @@ h1 {
 
 @media screen and (max-width: 320px) {
     
+    .menu {
+        left:-50vw;
+        width: 50vw;
+    }
+    
     body {
         font-family: 'Mada', sans-serif;
         font-size: 16px;
@@ -500,6 +674,7 @@ h1 {
         font-size: 3em;
         padding: 5px 0px;
         margin-block-start: 0.2em;
+        padding-top: 50px;
         }
 
     h2 {    

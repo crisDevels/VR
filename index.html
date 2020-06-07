@@ -10,6 +10,42 @@
 </head>
 <body>
     
+    <i class="icon-menu burger-button" id="burger_b"></i>
+
+    <header class="header">
+        <div class="wrapper">
+
+            <figure class="logo">
+                <img src="IMAGES/volar-con-VR.png" width="100" alt="logo https://iobbu.com">
+            </figure>
+        
+        
+        <nav class="menu">
+
+                <ol class="navigator">
+                    <li>
+                        <a class="link" href="#tool_empresa">¿Por qué VR?</a>
+                    </li>
+                    
+                    <li>
+                        <a class="link" href="#fini_teoria">Beneficios</a>
+                    </li>   
+                    
+                    <li>
+                        <a class="link" href="#hero_section_intro">Historia</a>
+                    </li>   
+                    
+                    <li>
+                        <a class="link" href="#form_section">GTR</a>
+                    </li>
+                    
+                    
+                </ol>
+        </nav>
+
+        </div>
+    </header>
+
     <section class="hero">
         <img src="IMAGES/Bloque-para-cabecera-sin-letra.png" class="cabecera" width="100%"/>
     </section>
@@ -54,7 +90,7 @@
     
     </section>
     
-    <section class="tool_empresa">
+    <section id="tool_empresa" class="tool_empresa">
 
         <div class="wrapper_teoria_tools">
 
@@ -123,7 +159,7 @@
         
     </section>
     
-    <section class="fini_teoria">
+    <section id="fini_teoria" class="fini_teoria">
 
         <div class="wrapper_teoria">
 
@@ -168,7 +204,7 @@
 
     </section>
         
-    <section class="hero_section_intro">
+    <section id="hero_section_intro" class="hero_section_intro">
 
             
             <div class="hero_historia">
@@ -207,7 +243,7 @@
 
     </section>
 
-    <section class="form_section">
+    <section id="form_section" class="form_section">
 
     <div class="wrapper_form">
 
@@ -215,6 +251,8 @@
             Antes de continuar, por favor ayúdanos con algunos datos para 
             personalizar nuestro aprendizaje.
         </h3>
+
+        <img src="IMAGES/volar-con-VR.png" width="100%">
 
         <form class="datos_historia">
             <select class="mister" name="genero" id="generos">
@@ -236,14 +274,19 @@
         <p>*Apartir de este punto seguiremos en tercera persona.</p>
     </div>    
 
-
+    
+    
     </section>
+
+    <div class="container">
 
     <section class="escena_block">
     
         <img id="escena1" width="100%"/>
 
         <div class="texto_block">
+
+            <label for="nombre_user" class="poner_nombre" id="usuario_vacio"></label>
 
             <p id="texto1" class="viñeta"></p>
         </div>
@@ -307,7 +350,7 @@
 
             <img  id="escena6" width="100%"/>
 
-            <p class="texto_flex" id="texto7" class="viñeta"></p>
+            <p class="texto_flex" id="texto6" class="viñeta"></p>
     
             
         
@@ -315,7 +358,7 @@
     
         <div class="wrapper_flex">
 
-            <p class="texto_flex" id="texto6" class="viñeta"></p>
+            <p class="texto_flex" id="texto7" class="viñeta"></p>
             
             <img id="escena11" width="100%"/>
               
@@ -347,7 +390,7 @@
 
     </section>
     
-
+    </div>
 
     
     <script type="text/javascript" src="VRparaVender.js"></script>    
